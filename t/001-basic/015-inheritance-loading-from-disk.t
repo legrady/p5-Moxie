@@ -5,7 +5,8 @@ use warnings;
 
 use Test::More;
 
-use lib 't/lib';
+use FindBin;
+use lib "$FindBin::Bin/../lib";
 
 use_ok 'Level3', '... use Level3 works';
 
